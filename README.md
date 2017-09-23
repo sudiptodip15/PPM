@@ -1,8 +1,7 @@
 ## Synopsis
 
-Projected Power Method (PPM) tries to infer the values of variables given pairwise noisy modulo measurements. It has applications to 3D object alignments that can provide better oreinted traning examples to convolutional networks.
-Even though this framework works for modulo measurements, it does not provide the correct initialization for extending the algorithm for community detection. In this project, we have mathematically determined the correct initialization
-that can help the iterates start from the basic of attraction and eventually reach a global optima, even though the overall problem is non-convex. 
+Projected Power Method (PPM) tries to infer the values of variables given pairwise noisy modulo measurements. It has applications to 3D object alignments that can provide better oriented training examples for convolutional neural networks.
+Even though this framework works for modulo measurements, it does not provide the correct initialization for extending the algorithm to community detection. In this project, we have mathematically determined the correct initialization that can help the algorithm start from the basin of attraction and eventually reach a global optima, even though the overall problem is non-convex. 
 
 ## Motivation
 
@@ -10,8 +9,8 @@ The problem of robust community detection in censored block model is important i
 
 ## Robustness
 
-Apart from the community detection in friendship-foe networks, our algorithm also incorporates robustness, where outlier nodes with random connections can be detection and eliminated in subsequent iterations. The robust algorithm is 
-motivated from robust regression where there is a significant fraction of outliers  (<= 0.4).
+Apart from the community detection in friendship-foe networks, our algorithm also incorporates robustness, where outlier nodes with random connections can be detected and eliminated in subsequent iterations. The robust algorithm is 
+motivated from robust regression where there is a significant fraction of outliers (<= 0.4), yet theoretical guarantees exist for identifying the right set of points.
 
 ## Installation
 
