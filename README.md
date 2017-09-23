@@ -14,13 +14,14 @@ motivated from robust regression where there is a significant fraction of outlie
 
 ## Installation
 
-Download the git folder and run 'main_CBM_Adverse.m' in MATLAB. 
+Download the git folder and run `main_CBM_Adverse.m` in MATLAB. 
 
 
 ## Tests
 
 An example run is as follows :
 
+```
 Running Robust Alg -->
 PPM without Robustness , Error = 0.645000   False positive = (45 / 300 )
 Iteration 1 , Error = 0.385000   False positive = (13 / 300 )
@@ -33,5 +34,6 @@ Iteration 7 , Error = 0.035000   False positive = (6 / 300 )
 Iteration 8 , Error = 0.255000   False positive = (9 / 300 )
 Iteration 9 , Error = 0.075000   False positive = (7 / 300 )
  Iterative Rebustness Algorithm Reduces Error !!!
+ ```
 
  
